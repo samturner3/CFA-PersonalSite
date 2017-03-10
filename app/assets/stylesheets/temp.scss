@@ -1,0 +1,95 @@
+section {
+  border: 1px solid black;
+}
+
+.row {
+  border: 1px solid red;
+     width: 100%;
+    height: 100%;
+    margin: 0px;
+
+}
+.rotate p, h4 {
+  -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+
+
+.col {
+    border: 1px solid green;
+    width: 100%;
+    height: 100%;
+}
+.col-sm-4 {
+    border: 1px solid green;
+    // width: 100%;
+    height: 100%;
+}
+
+
+.flexContainer {
+  border: 1px solid red;
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  flex-wrap: nowrap;
+  // overflow: hidden;
+}
+
+.flexContainerSmallWrap {
+  @extend .flexContainer;
+  margin-top: 50px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    }
+}
+
+.flexItem, .flexItemHead {
+  border: 1px solid green;
+  flex-grow: 1;
+  // width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.flexRow {
+  flex-direction: row;
+}
+
+.flexItemHead {
+  height: 33.33%;
+  text-align: center;
+}
+
+.flexItemMax50 {
+  max-width: 50%;
+  @media screen and (max-width: 768px) {
+  max-width: 100%;
+    }
+}
+
+.flexItem img {
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grow2 {
+  flex-grow: 2;
+}
+.grow3 {
+  flex-grow: 3;
+}
+.grow4 {
+  flex-grow: 4;
+}
+
+#typed1 ,#bounceleft {
+  // text-align: right;
+  width: 100%;
+
+}

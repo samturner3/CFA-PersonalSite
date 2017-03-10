@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SamTurnerWebsite</title>
+        <%= csrf_meta_tags %>
+
+        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Sam Turner</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="#home" class="page-scroll">Home</a>
+                        </li>
+                        <li>
+                            <a href="#AboutMe" class="page-scroll">About</a>
+                        </li>
+                        <li>
+                            <a href="#Knowledge" class="page-scroll">Knowledge</a>
+                        </li>
+                        <li>
+                            <a href="#ProSkills" class="page-scroll">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#MyStory" class="page-scroll">Story</a>
+                        </li>
+                        <li>
+                            <a href="#MyWork" class="page-scroll">Work</a>
+                        </li>
+                        <li>
+                            <a href="#Blog" class="page-scroll">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#Contact" class="page-scroll">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+        <%= yield %>
+    </body>
+</html>

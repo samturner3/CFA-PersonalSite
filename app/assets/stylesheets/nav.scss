@@ -1,0 +1,38 @@
+Pill_Gothic_300mg_Regularbody {
+    padding-top: 26px; //To avoid the content being hidden from the fixed nav bar.
+}
+.navbar-default {
+    // background-color: #5DA4D9;
+    background-color: #FFC600;
+    // border-color: #5DA4D9;
+    background-color: #FFC600;
+    font-family: "Pill_Gothic_300mg_Regular";
+
+    .navbar-brand {
+      color: black;
+    }
+
+    .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+        color: white;
+        // background-color: #5DA4D9;
+        background-color: #FFC600;
+        font-family: "Pill_Gothic_300mg_Regular";
+    }
+
+    .navbar-nav > li > a {
+          color: black;
+          font-family: "Pill_Gothic_300mg_Regular";
+    }
+
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  // background-color: #5DA4D9;
+  background-color: #FFC600;
+  font-family: "Pill_Gothic_300mg_Regular";
+}
+
+.navbar-brand {
+  font-family: Pill_Gothic_600mg_Semibd;
+}

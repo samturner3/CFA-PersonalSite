@@ -1,0 +1,94 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+    position: relative;
+}
+
+.banner {
+
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        margin: auto;
+        display: block;
+        // position: absolute;
+        // z-index: -10;
+        color: white;
+        // background-image: url('PictonBlue.png');
+        // background-position: center;
+        background-color: black;
+
+}
+// .banner-img {
+//     width: 100%;
+// }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /*width: 900px;*/
+    height: 100%;
+    border: 1px solid green;
+    justify-content: center;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+}
+
+.box-small {
+    flex-grow: 1;
+    /*width: 200px;*/
+    height: 200px;
+}
+
+.box-center {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.subtitle {
+    text-align: center;
+}
+//TEMP
+header {
+    height: 500px;
+    padding-top: 90px; //To avoid the content being hidden from the fixed nav bar.
+    @media screen and (max-width: 768px) {
+      padding-top: 50px;
+    }
+}
+
+section {
+  min-height: 500px;
+}
+
+.typed-cursor{
+  display: none;
+}
+
+.jumbo{
+  font-size: 8em;
+  font-family: "Pill_Gothic_600mg_Semibd";
+}
+
+.typed{
+    font-family: "Pill_Gothic_600mg_Semibd";
+}
+
+.YellowBG {
+  background-color: #FFC600;
+}
+
+.BlackBG {
+  background-color: black;
+}
+
+.yellowText {
+  color: #FFC600;
+}
+
+.whiteText {
+  color: white;
+}
