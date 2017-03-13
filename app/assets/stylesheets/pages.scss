@@ -15,12 +15,14 @@ body {
         display: block;
         // position: absolute;
         // z-index: -10;
+        background-image: url('code_banner.jpg');
+        background-size: cover;
         color: white;
-        // background-image: url('PictonBlue.png');
-        // background-position: center;
-        background-color: black;
+
+
 
 }
+
 // .banner-img {
 //     width: 100%;
 // }
@@ -53,7 +55,7 @@ body {
 }
 //TEMP
 header {
-    height: 500px;
+    height: 300px;
     padding-top: 90px; //To avoid the content being hidden from the fixed nav bar.
     @media screen and (max-width: 768px) {
       padding-top: 50px;
@@ -61,7 +63,7 @@ header {
 }
 
 section {
-  min-height: 500px;
+  padding: 5px 0px 5px 0px;
 }
 
 .typed-cursor{
@@ -91,4 +93,8 @@ section {
 
 .whiteText {
   color: white;
+}
+
+.container-fluid {
+  min-height: 300px;
 }

@@ -1,9 +1,9 @@
 section {
-  border: 1px solid black;
+  // border: 1px solid black;
 }
 
 .row {
-  border: 1px solid red;
+  // border: 1px solid red;
      width: 100%;
     height: 100%;
     margin: 0px;
@@ -17,19 +17,19 @@ section {
 
 
 .col {
-    border: 1px solid green;
+    // border: 1px solid green;
     width: 100%;
     height: 100%;
 }
 .col-sm-4 {
-    border: 1px solid green;
+    // border: 1px solid green;
     // width: 100%;
     height: 100%;
 }
 
 
 .flexContainer {
-  border: 1px solid red;
+  // border: 1px solid red;
   display: flex; /* or inline-flex */
   flex-direction: row;
   width: 100%;
@@ -40,14 +40,14 @@ section {
 
 .flexContainerSmallWrap {
   @extend .flexContainer;
-  margin-top: 50px;
-  @media screen and (max-width: 768px) {
+  // margin-top: 50px;
+  @media screen and (max-width: 1000px) {
     flex-direction: column;
     }
 }
 
 .flexItem, .flexItemHead {
-  border: 1px solid green;
+  // border: 1px solid green;
   flex-grow: 1;
   // width: 100%;
   display: flex;
@@ -73,7 +73,7 @@ section {
 }
 
 .flexItem img {
-  border-radius: 50%;
+  // border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -93,3 +93,12 @@ section {
   width: 100%;
 
 }
+
+.flexItem {
+  padding: 10px;
+
+}
+
+// .flexItem .flexRow {
+//   flex-basis: 50%;
+// }

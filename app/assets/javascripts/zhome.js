@@ -60,3 +60,8 @@ jQuery(document).ready(function(){
 		},6000);
 	});
 });
+
+
+    $(function() {
+        $("#my-github-projects").loadRepositories("samturner3");
+    });
